@@ -1,0 +1,58 @@
+iOS: 
+MacBook-Pro:qr_decryptor-main admin$ flutter run
+Launching lib/main.dart on Admin's iPhone in debug mode...
+Found saved certificate choice "Apple Development: Admin (X3499HTJLP)". To clear, use "flutter config --clear-ios-signing-settings".
+Developer identity "Apple Development: Admin (X3499HTJLP)" selected for iOS code signing
+Running pod install...                                             286ms
+CocoaPods' output:
+↳
+      Preparing
+
+    Analyzing dependencies
+
+    Inspecting targets to integrate
+      Using `ARCHS` setting to build architectures of target `Pods-Runner`: (``)
+    [!] Unable to find a target named `RunnerTests` in project `Runner.xcodeproj`, did find `Runner`.
+
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer/analyzer/target_inspector.rb:108:in `compute_targets'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer/analyzer/target_inspector.rb:40:in `compute_results'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer/analyzer.rb:1197:in `block (3 levels) in inspect_targets_to_integrate'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer/analyzer.rb:1195:in `each'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer/analyzer.rb:1195:in `block (2 levels) in inspect_targets_to_integrate'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer/analyzer.rb:1193:in `each'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer/analyzer.rb:1193:in `block in inspect_targets_to_integrate'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/user_interface.rb:64:in `section'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer/analyzer.rb:1188:in `inspect_targets_to_integrate'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer/analyzer.rb:107:in `analyze'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer.rb:422:in `analyze'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer.rb:244:in `block in resolve_dependencies'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/user_interface.rb:64:in `section'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer.rb:243:in `resolve_dependencies'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer.rb:162:in `install!'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/command/install.rb:52:in `run'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/claide-1.1.0/lib/claide/command.rb:334:in `run'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/command.rb:52:in `run'
+    /Users/admin/.rbenv/versions/3.2.7/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/bin/pod:55:in `<top (required)>'
+    /Users/admin/.rbenv/versions/3.2.7/bin/pod:25:in `load'
+    /Users/admin/.rbenv/versions/3.2.7/bin/pod:25:in `<main>'
+
+Error output from CocoaPods:
+↳
+
+    [!] Automatically assigning platform `iOS` with version `13.0` on target `Runner` because no platform was specified. Please specify a platform for this target in your Podfile. See
+    `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+
+Error: Error running pod install
+MacBook-Pro:qr_decryptor-main admin$ cd ios
+MacBook-Pro:ios admin$ pod install
+Analyzing dependencies
+[!] Unable to find a target named `RunnerTests` in project `Runner.xcodeproj`, did find `Runner`.
+
+[!] Automatically assigning platform `iOS` with version `13.0` on target `Runner` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+MacBook-Pro:ios admin$ pod install --repo-update
+Updating local specs repositories
+Analyzing dependencies
+[!] Unable to find a target named `RunnerTests` in project `Runner.xcodeproj`, did find `Runner`.
+
+[!] Automatically assigning platform `iOS` with version `13.0` on target `Runner` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+MacBook-Pro:ios admin$ 
