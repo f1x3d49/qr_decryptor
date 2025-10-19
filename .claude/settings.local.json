@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter clean)",
+      "Bash(flutter run -d emulator-5554)",
+      "Bash(find \"$USERPROFILE/.pub-cache\" -name \"qr_code_scanner-*\" -type d)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

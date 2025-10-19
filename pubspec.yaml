@@ -30,11 +30,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # QR Code scanning (compatible with older Flutter versions)
-  qr_code_scanner: ^0.7.0
+  # QR Code scanning
+  qr_code_scanner: ^1.0.1
 
   # Camera and permissions
-  permission_handler: ^8.3.0
+  permission_handler: ^11.0.0
 
   # AES encryption/decryption
   pointycastle: ^3.6.2

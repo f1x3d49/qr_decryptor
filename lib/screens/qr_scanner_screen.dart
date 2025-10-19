@@ -122,8 +122,7 @@ class _QrScannerScreenState extends State<QrScannerScreen> {
                 style: TextStyle(fontSize: 18),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.blue[600],
-                onPrimary: Colors.white,
+                foregroundColor: Colors.white, backgroundColor: Colors.blue[600],
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12),
                 ),
@@ -162,8 +161,8 @@ class _QrScannerScreenState extends State<QrScannerScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           if (isProcessing)
-            Column(
-              children: const [
+            const Column(
+              children: [
                 CircularProgressIndicator(),
                 SizedBox(height: 8),
                 Text('Decrypting...'),
